@@ -1,0 +1,8 @@
+{
+  "env": {
+    "MONGO_HOST": "<ask-your-interviewer>",
+    "MONGO_USER": "<ask-your-interviewer>",
+    "MONGO_PASSWORD": "<ask-your-interviewer>",
+    "MONGO_DB": "<ask-your-interviewer>"
+  }
+}
