@@ -1,0 +1,74 @@
+{
+  "todos":[
+    {
+      "_id":"624c2ab0dfebcd3c748dcf0c",
+      "name":"Kiitos Standup Meeting",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "status":false,
+      "createdAt":"2022-04-05T11:40:32.808Z",
+      "updatedAt":"2022-04-05T11:40:32.808Z",
+      "__v":0,
+      "category": {
+        "id": 1,
+        "name": "General",
+        "image": "https://dummyimage.com:/200"
+      }
+    },
+    {
+      "_id":"624c2b5546f3883ceca3a503",
+      "name":"Kiitos Weekly Meeting",
+      "description":"Lorem ipsum dolor sit",
+      "status":false,
+      "createdAt":"2022-04-05T11:43:17.984Z",
+      "updatedAt":"2022-04-05T11:43:17.984Z",
+      "__v":0,
+      "category": {
+        "id": 1,
+        "name": "General",
+        "image": "https://dummyimage.com/200"
+      }
+    },
+    {
+      "_id":"624c2b6c46f3883ceca3a504",
+      "name":"Kiitos Data Meeting",
+      "description":"sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "status":false,
+      "createdAt":"2022-04-05T11:43:40.380Z",
+      "updatedAt":"2022-04-05T11:43:40.380Z",
+      "__v":0,
+      "category": {
+        "id": 2,
+        "name": "Date Meetings",
+        "image": "https://dummyimage.com/200"
+      }
+    },
+    {
+      "_id":"624c2b6c46f3883ceca3a505",
+      "name":"Microsoft Data Meeting",
+      "description":"Nibh mauris cursus mattis molestie a iaculis at.",
+      "status":false,
+      "createdAt":"2022-04-05T11:43:40.380Z",
+      "updatedAt":"2022-04-05T11:43:40.380Z",
+      "__v":0,
+      "category": {
+        "id": 2,
+        "name": "Date Meetings",
+        "image": "https://dummyimage.com/200"
+      }
+    },
+    {
+      "_id":"624c2b6c46f3883ceca3a506",
+      "name":"Microsoft Data Meeting",
+      "description":"Non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus",
+      "status":false,
+      "createdAt":"2022-04-05T11:43:40.380Z",
+      "updatedAt":"2022-04-05T11:43:40.380Z",
+      "__v":0,
+      "category": {
+        "id": 3,
+        "name": "Business Meetings",
+        "image": "https://dummyimage.com/200"
+      }
+    }
+  ]
+}
