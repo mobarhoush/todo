@@ -8,7 +8,7 @@ const App: React.FC = () => {
   return (
       <main className='App'>
         <h1>My Todos</h1>
-        //TODO: Display todo's here
+      {/* TODO: Display todo's here */}
       </main>
   )
 }
