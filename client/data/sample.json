@@ -11,7 +11,7 @@
       "category": {
         "id": 1,
         "name": "General",
-        "image": "https://dummyimage.com:/200"
+        "image": "https://dummyimage.com/200"
       }
     },
     {
@@ -52,7 +52,7 @@
       "__v":0,
       "category": {
         "id": 2,
-        "name": "Date Meetings",
+        "name": "Data Meetings",
         "image": "https://dummyimage.com/200"
       }
     },

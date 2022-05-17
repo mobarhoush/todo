@@ -1,0 +1,76 @@
+[
+  {
+    "id":"1",
+    "name":"Kiitos Standup Meeting"
+  },
+  {
+    "id":"2",
+    "name":"Kiitos Weekly Meeting",
+    "dependency": "1"
+  },
+  {
+    "id":"3",
+    "name":"Kiitos Data Meeting",
+    "dependency": "2"
+  },
+  {
+    "id":"4",
+    "name":"Microsoft Data Meeting",
+    "dependency": "2"
+  },
+  {
+    "id":"5",
+    "name":"Microsoft Data Meeting",
+    "dependency": "4"
+  },
+  {
+    "id": "6",
+    "name": "Facebook meeting",
+    "dependency": "4"
+  },
+  {
+    "id": "7",
+    "name": "Twtitter meeting",
+    "dependency": "4"
+  },
+  {
+    "id": "8",
+    "name": "Telegram meeting",
+    "dependency": "2"
+  },
+  {
+    "id": "9",
+    "name": "TAP meeting",
+    "dependency": "1"
+  },
+  {
+    "id": "10",
+    "name": "SUM meeting",
+    "dependency": "9"
+  },
+  {
+    "id": "11",
+    "name": "QuickSilver meeting",
+    "dependency": "9"
+  },
+  {
+    "id": "12",
+    "name": "Slack meeting",
+    "dependency": "9"
+  },
+  {
+    "id": "13",
+    "name": "FE team meeting",
+    "dependency": "9"
+  },
+  {
+    "id": "14",
+    "name": "BE team meeting",
+    "dependency": "1"
+  },
+  {
+    "id": "15",
+    "name": "Netflix meeting",
+    "dependency": "1"
+  }
+]
