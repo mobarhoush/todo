@@ -15,7 +15,9 @@ export const addTodo = async (req: Request, res: Response): Promise<void> => {
   try {
     const todo = req.body;
     const response: ITodo = await Todo.create(todo);
-    res.status(201).json({ response });
+    res
+      .status(201)
+      .json({ message: "todo created successfully", data: response });
   } catch (error) {
     res.status(500).json({
       message: "Failed to add todo.",
@@ -29,14 +31,15 @@ export const updateTodo = async (
   res: Response
 ): Promise<void> => {
   try {
-    const id = req.params.id;
+    const { id } = req.params;
     const todo: ITodo = req.body;
-    const response: ITodo | null = await Todo.findByIdAndUpdate(id, todo);
+    const response = await Todo.updateOne({ _id: id }, todo);
     if (!response) {
       throw new Error();
     }
     res.status(200).json({
       message: "Todo has been updated successfully",
+      data: response,
     });
   } catch (error) {
     res.status(500).json({
