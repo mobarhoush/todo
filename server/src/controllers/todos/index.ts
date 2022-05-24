@@ -48,3 +48,25 @@ export const updateTodo = async (
     throw error;
   }
 };
+
+export const deleteTodo = async (
+  req: Request,
+  res: Response
+): Promise<void> => {
+  try {
+    const { id } = req.params;
+    const response = await Todo.deleteOne({ _id: id });
+    if (!response?.deletedCount) {
+      res.status(400).json({ message: "This todo doesn't exists" });
+    }
+    res.status(200).json({
+      message: "Todo has been deleted successfully",
+      data: response,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "Failed to delete todo.",
+    });
+    throw error;
+  }
+};
