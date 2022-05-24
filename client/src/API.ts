@@ -1,7 +1,14 @@
-
+import axios from "axios";
 const baseUrl: string = "http://localhost:4000"
 
-export const getTodos = async (): Promise<AxiosResponse<ApiDataType>> => {
-    //TODO: Call '/todo' API to get todo's data
-    return todos
+export interface TODO {
+    description: string;
+    name: string;
+    _id: string;
 }
+export const getTodos = async (): Promise<TODO[]> => {
+    const res = await axios.get(`${baseUrl}/todos`);
+    const { todos } = res.data;
+
+    return todos;
+};
